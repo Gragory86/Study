@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="./client.js"></script>
+        <script type="text/javascript">
+            window.clients = [
+                {
+                    "firstName": "Robert",
+                    "lastName": "Harutyunyan",
+                    "balance": 10000
+                },
+                {
+                    "firstName": "Grigory",
+                    "lastName": "Harutyunyan",
+                    "balance": 100000
+                },
+                {
+                    "firstName": "Ivan",
+                    "lastName": "Yasinski",
+                    "balance": -1
+                },
+                {
+                    "firstName": "Ashot",
+                    "lastName": "Ashot",
+                    "balance": 100000
+                }
+            ];
+
+
+            window.categories = [{
+                id: 0,
+                name:"rimming"
+            }, {
+                id: 1, 
+                name: "dp"
+            }, 
+            {
+                id: 2,
+                name: "virgin"
+            },
+            {
+                id: 3,
+                name: "lesbi" 
+            },
+            {
+                id: 4,
+                name: "mature"
+            }];
+
+            window.videos = [
+                {
+                    "title": "First Video",
+                    "duration": 45,
+                    "tags": [0, 1, 2, 3]
+                },
+                {
+                    "title": "Second Video",
+                    "duration": 13,
+                    "tags": [1, 4, 3]
+                }
+            ]
+        </script>
+
+
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+
+
+
+    </head>
+    <body>
+        <p>Barev</p>
+        <p>Barev dzez</p>
+        <p>Barev axper</p>
+        <div id="blk-categories">
+            <h1>Categories:</h1>
+        </div>
+        <div id="blk-videos">
+            <h1>Videos:</h1>
+            <div id="ctn-videos">
+
+            </div>
+            <button id="btn-load">Find +10min</button>
+        </div>        
+        <table id="tb-clients">
+            <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Balance</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button id="bt-find-max">Find Max</button>
+    </body>
+</html>

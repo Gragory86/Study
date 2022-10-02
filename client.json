@@ -1,0 +1,17 @@
+[
+    {
+        "firstName": "Robert",
+        "lastName": "Harutyunyan",
+        "balance": 10000
+    },
+    {
+        "firstName": "Grigory",
+        "lastName": "Harutyunyan",
+        "balance": 100000
+    },
+    {
+        "firstName": "Ivan",
+        "lastName": "Yasinski",
+        "balance": -1
+    }
+]
